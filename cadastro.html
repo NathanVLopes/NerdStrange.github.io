@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/cadastro.css">
+        <title>NerdStrange</title>
+    </head>
+    <body>
+        <br>
+       <a href="tela_inicial.php" class="Voltar">Voltar</a>
+        <div class="box">
+            <form action="cadastro.php" method=post>
+                <fieldset>
+                    <legend><b> Preencha os dados </b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="inputlabel"> Nome Compeleto </label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="inputlabel"> Email </label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="senha" name="senha" id="senha" class="inputUser" required>
+                        <label for="senha" class="inputlabel"> Senha </label>   
+                    </div>
+                    <br>
+                   
+                <br><br>
+                <input  type="submit" name="submit" id="submit">
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
